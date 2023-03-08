@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
                 {
                     findViewById<TextView>(R.id.error_login).text = ""
                     findViewById<TextView>(R.id.error_haslo).text = ""
+                    val intent = Intent(this, Informacje::class.java)
+                    startActivity(intent)
                 }
                 else
                 {

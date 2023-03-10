@@ -2,16 +2,15 @@ package com.example.aplikacja_szkola
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toolbar
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
 
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "SetTextI18n")
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,8 +25,8 @@ class MainActivity : AppCompatActivity() {
 
 
         confirmButton.setOnClickListener {
-            var login = findViewById<TextInputEditText>(R.id.input_login).text
-            var password = findViewById<TextInputEditText>(R.id.input_haslo).text
+            val login = findViewById<TextInputEditText>(R.id.input_login).text
+            val password = findViewById<TextInputEditText>(R.id.input_haslo).text
 
             if (login.toString() == properLogin)
             {

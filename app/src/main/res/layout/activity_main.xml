@@ -6,27 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center_horizontal">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title=" Kamil Lach"
+        app:logo="@drawable/app_logo"
+        app:navigationIcon="@drawable/menu_icon"/>
 
     <TextView
         android:id="@+id/textView_login2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:textColor="#543245"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintVertical_bias="0.155"
+        android:layout_marginTop="20dp"/>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/input_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Podaj login"
+        android:hint="@string/podaj_login"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +65,7 @@
         android:id="@+id/textView_haslo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HASŁO"
+        android:text="@string/has_o"
         android:textColor="#543245"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +78,7 @@
         android:id="@+id/input_haslo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Podaj hasło"
+        android:hint="@string/podaj_has_o"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,7 +104,7 @@
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="POTWIERDZ"
+        android:text="@string/potwierdz"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

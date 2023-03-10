@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">aplikacja_szkola</string>
+    <string name="login">LOGIN</string>
+    <string name="podaj_login">Podaj login</string>
+    <string name="has_o">HASŁO</string>
+    <string name="podaj_has_o">Podaj hasło</string>
+    <string name="potwierdz">POTWIERDZ</string>
 </resources>

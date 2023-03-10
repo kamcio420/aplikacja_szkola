@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 
             if (login.toString() == properLogin)
             {
+                findViewById<TextView>(R.id.error_login).text = ""
                 if (password.toString() == properPassword)
                 {
                     findViewById<TextView>(R.id.error_login).text = ""

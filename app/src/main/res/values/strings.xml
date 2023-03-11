@@ -5,4 +5,11 @@
     <string name="has_o">HASŁO</string>
     <string name="podaj_has_o">Podaj hasło</string>
     <string name="potwierdz">POTWIERDZ</string>
+    <string name="informacje">INFORMACJE</string>
+    <string name="nazwisko_n_lach">NAZWISKO:\n Lach</string>
+    <string name="klasa_n_3pr">KLASA:\n 3PR</string>
+    <string name="imie_n_kamil">IMIE:\n Kamil</string>
+    <string name="grupa_n_1">GRUPA:\n 1</string>
+    <string name="nick_nk_lach">NICK:\nk_lach</string>
+    <string name="numer_n_10">NUMER:\n 10</string>
 </resources>

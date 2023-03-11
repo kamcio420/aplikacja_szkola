@@ -6,4 +6,79 @@
     android:layout_height="match_parent"
     tools:context=".Informacje">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title=" Kamil Lach"
+        app:logo="@drawable/app_logo"
+        app:navigationIcon="@drawable/menu_icon"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informacje"
+        android:textSize="30sp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textColor="#543245" />
+
+    <TextView android:text="@string/nazwisko_n_lach"
+        android:layout_gravity="left|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#543245"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="50dp"
+        android:text="@string/klasa_n_3pr"
+        android:textColor="#543245"
+        android:textSize="24sp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/imie_n_kamil"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="#543245"/>
+
+    <TextView android:text="@string/grupa_n_1"
+        android:layout_gravity="left|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#543245"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="200dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/nick_nk_lach"
+        android:layout_gravity="right|bottom"
+        android:textSize="24sp"
+        android:textColor="#543245"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="200dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/numer_n_10"
+        android:layout_gravity="center|bottom"
+        android:textSize="24sp"
+        android:textColor="#543245"
+        android:layout_marginBottom="200dp"/>
+
 </FrameLayout>

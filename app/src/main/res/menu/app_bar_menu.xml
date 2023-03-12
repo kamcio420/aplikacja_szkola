@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/login"
+        android:title="Login"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/informacje"
+        android:title="Informacje"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/oceny"
+        android:title="Oceny"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logo"
+        android:title="Logo"
+        android:icon="@drawable/ic_logo"
+        app:showAsAction="always"/>
+
+</menu>

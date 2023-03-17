@@ -8,7 +8,6 @@ import android.view.MenuItem
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import android.widget.Toolbar
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
 
@@ -17,7 +16,7 @@ import com.google.android.material.textfield.TextInputEditText
 //1. activity choosing menu on click(toolbar)
 //2. lock these two activities when user is not logged in
 
-var islogged = false;
+var islogged = false
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId", "SetTextI18n")
@@ -48,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                     findViewById<TextView>(R.id.error_haslo).text = ""
                     val intent = Intent(this, Informacje::class.java)
                     startActivity(intent)
-                    islogged = true;
+                    islogged = true
                 }
                 else
                 {
@@ -78,7 +77,7 @@ class MainActivity : AppCompatActivity() {
 
             R.id.informacje ->
             {
-                if(islogged == true)
+                if(islogged)
                 {
                     val intent = Intent(this, Informacje::class.java)
                     startActivity(intent)
@@ -90,7 +89,7 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.oceny ->
             {
-                if(islogged == true)
+                if(islogged)
                 {
                     val intent = Intent(this, Oceny::class.java)
                     startActivity(intent)

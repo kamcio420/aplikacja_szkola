@@ -27,7 +27,7 @@ class Informacje : AppCompatActivity() {
 
             R.id.informacje ->
             {
-                if(islogged == true)
+                if(islogged)
                 {
                     val intent = Intent(this, Informacje::class.java)
                     startActivity(intent)
@@ -39,7 +39,7 @@ class Informacje : AppCompatActivity() {
             }
             R.id.oceny ->
             {
-                if(islogged == true)
+                if(islogged)
                 {
                     val intent = Intent(this, Oceny::class.java)
                     startActivity(intent)

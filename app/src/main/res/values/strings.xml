@@ -12,4 +12,20 @@
     <string name="grupa_n_1">GRUPA:\n 1</string>
     <string name="nick_nk_lach">NICK:\nk_lach</string>
     <string name="numer_n_10">NUMER:\n 10</string>
+    <string name="przedmiot">PRZEDMIOT</string>
+    <string name="oceny">OCENY</string>
+    <string name="matematyka">MATEMATYKA</string>
+    <string name="_1_1_1_2">1, 1, 1, 2</string>
+    <string name="j_polski">J. POLSKI</string>
+    <string name="_4_3_5_3">4, 3, 5, 3</string>
+    <string name="j_angielski">J.ANGIELSKI</string>
+    <string name="_6_6_3_6">6, 6, 3, 6</string>
+    <string name="wf">WF</string>
+    <string name="_2_3_4_2">2, 3, 4, 2</string>
+    <string name="fizyka">FIZYKA</string>
+    <string name="_5_5_5_4">5, 5, 5, 4</string>
+    <string name="historia">HISTORIA</string>
+    <string name="_6_5_3_6">6, 5, 3, 6</string>
+    <string name="informatyka">INFORMATYKA</string>
+    <string name="_5_3_5_4">5, 3, 5, 4</string>
 </resources>
